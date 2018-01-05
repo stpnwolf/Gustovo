@@ -20,20 +20,20 @@
           font-size: 3rem;
           font-style: normal;
           font-weight: 600;
-          color: #56534c;
+          color: @fontColor;
         }
         h4 {
-          color: #a47d5e;
+          color: @titleColor;
         }
         p {
           padding-top: 40px;
           padding-bottom: 15px;
           font-style: normal;
           font-weight: 200;
-          color: #56534c;
+          color: @fontColor;
         }
         h2 {
-          color: #56534c;
+          color: @fontColor;
           font-style: normal;
           font-weight: 600;
         }
@@ -55,7 +55,7 @@
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 200;
-            color: #56534c;
+            color: @fontColor;
             border-top: 2px solid #d7d5ca;
             border-bottom: 2px solid #d7d5ca;
             padding-top: 10px;
@@ -84,7 +84,7 @@
             font-weight: 400;
             font-size: 1.3rem;
             font-family: 'Scriptina', 'Alegreya', Helvetica, sans-serif;
-            color: #a47d5e;
+            color: @titleColor;
           }
           .fa {
             color: #b5b4b0;
@@ -121,18 +121,18 @@
           align-items: center;
           flex-wrap: wrap;
           :first-child {
-            background: url('../../../assets/images/flour.jpg') no-repeat;
+            background: url('@{bgLink}/flour.jpg') no-repeat;
           }
           :nth-child(2) {
-            background: url('../../../assets/images/eggs.jpg') no-repeat;
+            background: url('@{bgLink}/eggs.jpg') no-repeat;
             background-size: cover;
           }
           :nth-child(3) {
-            background: url('../../../assets/images/cake.jpg') no-repeat right 0 top -55px;
+            background: url('@{bgLink}/cake.jpg') no-repeat right 0 top -55px;
             background-size: cover;
           }
           :last-child {
-            background: url('../../../assets/images/cookies.jpg') no-repeat;
+            background: url('@{bgLink}/cookies.jpg') no-repeat;
             background-size: cover;
           }
           .chef-dishes__block {

@@ -25,13 +25,13 @@
     left: 50%;
     padding-top: 20px;
     h1 {
-      color: #56534c;
+      color: @fontColor;
       letter-spacing: 2px;
       font-style: normal;
       font-weight: 600;
     }
     h5 {
-      color: #a98567;
+      color: @titleColor;
       letter-spacing: 1px;
       font-style: normal;
       font-weight: 600;
@@ -49,7 +49,7 @@
     .jibarito__item {
       height: 270px;
       width: 100%;
-      .jibarito__item-photo {
+      &-photo {
         margin: 0 auto;
         width: 100px;
         height: 100px;
@@ -64,13 +64,13 @@
         text-align: center;
         margin-top: 15px;
         h2 {
-          color: #a98567;
+          color: @titleColor;
           letter-spacing: 1px;
           font-style: normal;
           font-weight: 600;
         }
         p {
-          color: #56534c;
+          color: @fontColor;
           letter-spacing: 1px;
         }
       }
@@ -113,7 +113,7 @@
         text-align: center;
         h4 {
           padding-top: 40px;
-          color: #a47d5e;
+          color: @titleColor;
         }
         h1 {
           height: 80px;
@@ -121,7 +121,7 @@
           letter-spacing: 2px;
           font-style: normal;
           font-weight: 600;
-          color: #56534c;
+          color: @fontColor;
         }
         p {
           letter-spacing: 1px;
@@ -134,7 +134,7 @@
         height: 200px;
         text-align: center;
         padding-top: 10px;
-        background-image: url('../../../assets/images/readyin_bg.jpg');
+        background-image: url('@{bgLink}/readyin_bg.jpg');
         background-size: cover;
         h1 {
           height: 100px;
@@ -146,7 +146,7 @@
         }
         h4 {
           padding-top: 20px;
-          color: #a47d5e;
+          color: @titleColor;
         }
         p {
           letter-spacing: 1px;
