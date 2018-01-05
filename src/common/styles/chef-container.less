@@ -1,0 +1,180 @@
+.chef-container {
+  height: @containerHeight;
+  width: 100%;
+  background-color: #fcfbf9;
+  .chef-container-wrapper {
+    margin: 0 auto;
+    width: 1260px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    .chef-container__social {
+      width: 630px;
+      height: 100%;
+      .chef-social__title {
+        text-align: center;
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-right: 50px;
+        h1 {
+          font-size: 3rem;
+          font-style: normal;
+          font-weight: 600;
+          color: #56534c;
+        }
+        h4 {
+          color: #a47d5e;
+        }
+        p {
+          padding-top: 40px;
+          padding-bottom: 15px;
+          font-style: normal;
+          font-weight: 200;
+          color: #56534c;
+        }
+        h2 {
+          color: #56534c;
+          font-style: normal;
+          font-weight: 600;
+        }
+      }
+      .chef-social__profile {
+        margin: 0 auto;
+        width: 370px;
+        height: 270px;
+        .profile__wrapper {
+          height: 170px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .block {
+            width: 110px;
+            height: 60px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 200;
+            color: #56534c;
+            border-top: 2px solid #d7d5ca;
+            border-bottom: 2px solid #d7d5ca;
+            padding-top: 10px;
+          }
+          .avatar {
+            width: 100px;
+            height: 100px;
+            img {
+              display: block;
+              width: 100%;
+              border-radius: 50%;
+            }
+          }
+        }
+        .chef-social__signature {
+          position: relative;
+          width: 100%;
+          height: 80px;
+          margin: 0 auto;
+          h2 {
+            display: block;
+            width: 270px;
+            text-align: center;
+            line-height: 1.5;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.3rem;
+            font-family: 'Scriptina', 'Alegreya', Helvetica, sans-serif;
+            color: #a47d5e;
+          }
+          .fa {
+            color: #b5b4b0;
+          }
+          .fa-quote-left {
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+          .fa-quote-right {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+          }
+        }
+      }
+    }
+    .chef-container__dishes {
+      width: 630px;
+      height: 100%;
+      position: relative;
+      .chef-dishes__wrapper {
+        width: 630px;
+        height: 540px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        .chef-dishes__blocks {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          :first-child {
+            background: url('../../../assets/images/flour.jpg') no-repeat;
+          }
+          :nth-child(2) {
+            background: url('../../../assets/images/eggs.jpg') no-repeat;
+            background-size: cover;
+          }
+          :nth-child(3) {
+            background: url('../../../assets/images/cake.jpg') no-repeat right 0 top -55px;
+            background-size: cover;
+          }
+          :last-child {
+            background: url('../../../assets/images/cookies.jpg') no-repeat;
+            background-size: cover;
+          }
+          .chef-dishes__block {
+            width: 295px;
+            height: 250px;
+            background-color: bisque;
+            outline: 5px solid white;
+            outline-offset: -13px;
+          }
+          .block-1, .block-3 {
+            margin-right: 20px;
+          }
+        }
+        .chef-dishes__vector {
+          height: 300px;
+          width: 300px;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 50%;
+          left: 50%;
+          img {
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            opacity: 0.9;
+          }
+          h2 {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            font-style: normal;
+            font-weight: 200;
+            color: #c9b176;
+            text-align: center;
+            font-size: 1.7rem;
+          }
+        }
+      }
+    }
+  }
+}
