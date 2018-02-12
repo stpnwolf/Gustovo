@@ -3044,195 +3044,6 @@ body {
   width: 1600px;
   margin: 0 auto;
 }
-.pancakes-container {
-  height: 760px;
-  width: 100%;
-  position: relative;
-  background: url(../assets/images/pancakes-bg.jpg) no-repeat;
-  background-size: cover;
-}
-.pancakes-container .pancakes-container__wrapper {
-  box-sizing: content-box;
-  position: absolute;
-  -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  width: 1260px;
-  height: 560px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper {
-  width: 965px;
-  height: 510px;
-  position: absolute;
-  bottom: 0;
-  left: 8%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.15);
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__photo {
-  width: 420px;
-  height: 100%;
-  background: url(../assets/images/img4.jpg), center;
-  background-size: cover;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description {
-  width: 550px;
-  height: 100%;
-  background-color: #fff;
-  position: relative;
-  transition: all 0.5s ease;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description img {
-  width: 255px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  opacity: 0.3;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .tasty-pancakes__prepare {
-  z-index: 1000;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  padding-top: 10px;
-  background-image: url(../assets/images/readyin_bg.jpg);
-  background-size: cover;
-  position: absolute;
-  top: -50px;
-  right: -110px;
-  box-shadow: -9px 13px 22px 0 rgba(50, 50, 50, 0.57);
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .tasty-pancakes__prepare h1 {
-  height: 100px;
-  font-size: 5rem;
-  letter-spacing: 2px;
-  font-style: normal;
-  font-weight: 600;
-  color: #dfc691;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .tasty-pancakes__prepare h4 {
-  padding-top: 20px;
-  color: #a47d5e;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .tasty-pancakes__prepare p {
-  letter-spacing: 1px;
-  color: #9e998c;
-  margin: 0 auto;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancakes-description {
-  width: 400px;
-  height: 200px;
-  margin-left: 60px;
-  margin-top: 60px;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancakes-description h1 {
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 600;
-  color: #56534c;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancakes-description h4 {
-  color: #a47d5e;
-  font-style: normal;
-  font-weight: 600;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancakes-description p {
-  padding-top: 40px;
-  padding-bottom: 15px;
-  font-style: normal;
-  font-weight: 200;
-  color: #56534c;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper {
-  width: 500px;
-  height: 150px;
-  position: absolute;
-  bottom: 0;
-  left: 25px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-arrow-left {
-  height: 25px;
-  width: 25px;
-  margin-left: 50px;
-  cursor: pointer;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-arrow-right {
-  height: 25px;
-  width: 25px;
-  margin-right: 50px;
-  cursor: pointer;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .fa {
-  color: #56534c;
-  margin: 0 auto;
-  font-size: 1.2rem;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider {
-  width: 310px;
-  height: 120px;
-  overflow: hidden;
-  margin: 0;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .carousel-list {
-  overflow: hidden;
-  height: 100%;
-  width: 9999px;
-  padding: 0 0;
-  position: relative;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .carousel-list li {
-  display: inline-block;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .pancake__item-1 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  background-image: url(../assets/images/img.jpg);
-  background-size: cover;
-  cursor: pointer;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .pancake__item-2 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  background-image: url(../assets/images/img2.jpg);
-  background-size: cover;
-  cursor: pointer;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .pancake__item-3 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  background-image: url(../assets/images/img3.jpg);
-  background-size: cover;
-  cursor: pointer;
-}
-.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .pancake__item-4 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  background-image: url(../assets/images/img4.jpg);
-  background-size: cover;
-  cursor: pointer;
-}
 .global-header {
   width: 100%;
   height: 900px;
@@ -3634,7 +3445,7 @@ body {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   z-index: 4;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-header {
+.breakfast-container .breakfast-content__wrapper .faceblock-header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -3647,23 +3458,23 @@ body {
   margin-left: 10px;
   text-align: center;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-header .header-item > p {
+.breakfast-container .breakfast-content__wrapper .faceblock-header-item > p {
   font-family: 'PlayfairDisplay', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #56534c;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-vector {
+.breakfast-container .breakfast-content__wrapper .faceblock-vector {
   position: relative;
   margin: 0 auto;
   width: 375px;
   height: 70px;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-vector .line {
+.breakfast-container .breakfast-content__wrapper .faceblock-vector .line {
   margin-top: 5px;
   margin-left: 5px;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-vector .vector {
+.breakfast-container .breakfast-content__wrapper .faceblock-vector .vector {
   width: 45px;
   height: 35px;
   position: absolute;
@@ -3671,13 +3482,13 @@ body {
   left: 165px;
   opacity: 0.3;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-content {
+.breakfast-container .breakfast-content__wrapper .faceblock-content {
   width: 340px;
   height: 240px;
   text-align: center;
   margin: 40px auto;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-content h1 {
+.breakfast-container .breakfast-content__wrapper .faceblock-content h1 {
   display: block;
   width: 100%;
   font-style: normal;
@@ -3685,7 +3496,7 @@ body {
   color: #56534c;
   margin-bottom: 30px;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-content p {
+.breakfast-container .breakfast-content__wrapper .faceblock-content p {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 200;
@@ -3693,7 +3504,7 @@ body {
   line-height: 1.6rem;
   color: #56534c;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-button {
+.breakfast-container .breakfast-content__wrapper .faceblock-button {
   position: absolute;
   bottom: 70px;
   left: 125px;
@@ -3702,7 +3513,7 @@ body {
   border: 2px solid #56534c;
   text-align: center;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-button a {
+.breakfast-container .breakfast-content__wrapper .faceblock-button a {
   padding-top: 10px;
   display: block;
   height: 100%;
@@ -3711,18 +3522,18 @@ body {
   font-style: normal;
   font-weight: 600;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-button a:hover {
+.breakfast-container .breakfast-content__wrapper .faceblock-button a:hover {
   background-color: #56534c;
   transition: 300ms;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-tassel {
+.breakfast-container .breakfast-content__wrapper .faceblock-tassel {
   width: 30px;
   height: 30px;
   position: absolute;
   bottom: 4px;
   left: 0;
 }
-.breakfast-container .breakfast-content__wrapper .faceblock .faceblock-tassel img {
+.breakfast-container .breakfast-content__wrapper .faceblock-tassel img {
   z-index: 5;
 }
 .breakfast-container .breakfast-content__wrapper .middleblock {
@@ -3763,7 +3574,7 @@ body {
   letter-spacing: 1px;
 }
 .breakfast-container .breakfast-menu__wrapper h4 {
-  color: #c8a593;
+  color: #a47d5e;
   letter-spacing: 1px;
   font-style: normal;
   font-weight: 400;
@@ -3796,6 +3607,195 @@ body {
   font-weight: 400;
   font-size: 2rem;
   letter-spacing: 1px;
+}
+.pancakes-container {
+  height: 760px;
+  width: 100%;
+  position: relative;
+  background: url(../assets/images/pancakes-bg.jpg) no-repeat;
+  background-size: cover;
+}
+.pancakes-container .pancakes-container__wrapper {
+  box-sizing: content-box;
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 1260px;
+  height: 560px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper {
+  width: 965px;
+  height: 510px;
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__photo {
+  width: 420px;
+  height: 100%;
+  background: url(../assets/images/img4.jpg), center;
+  background-size: cover;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description {
+  width: 550px;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description img {
+  width: 255px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .tasty-pancakes__prepare {
+  z-index: 1000;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding-top: 10px;
+  background-image: url(../assets/images/readyin_bg.jpg);
+  background-size: cover;
+  position: absolute;
+  top: -50px;
+  right: -110px;
+  box-shadow: -9px 13px 22px 0 rgba(50, 50, 50, 0.57);
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .tasty-pancakes__prepare h1 {
+  height: 100px;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-weight: 600;
+  color: #dfc691;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .tasty-pancakes__prepare h4 {
+  padding-top: 20px;
+  color: #a47d5e;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .tasty-pancakes__prepare p {
+  letter-spacing: 1px;
+  color: #9e998c;
+  margin: 0 auto;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancakes-description {
+  width: 400px;
+  height: 200px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancakes-description h1 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  color: #56534c;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancakes-description h4 {
+  color: #a47d5e;
+  font-style: normal;
+  font-weight: 600;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancakes-description p {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 200;
+  color: #56534c;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper {
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-arrow-left {
+  height: 25px;
+  width: 25px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-arrow-right {
+  height: 25px;
+  width: 25px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .fa {
+  color: #56534c;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider {
+  width: 310px;
+  height: 120px;
+  overflow: hidden;
+  margin: 0;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .carousel-list {
+  overflow: hidden;
+  height: 100%;
+  width: 9999px;
+  padding: 0 0;
+  position: relative;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .carousel-list li {
+  display: inline-block;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .pancake__item-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-image: url(../assets/images/img.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .pancake__item-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-image: url(../assets/images/img2.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .pancake__item-3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-image: url(../assets/images/img3.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+.pancakes-container .pancakes-container__wrapper .tasty-pancakes__wrapper .tasty-pancakes__description .pancake-slider__wrapper .carousel-hider .pancake__item-4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-image: url(../assets/images/img4.jpg);
+  background-size: cover;
+  cursor: pointer;
 }
 .global-footer {
   height: 1160px;
@@ -3833,7 +3833,7 @@ body {
   font-weight: 600;
 }
 .global-footer .global-footer__title h5 {
-  color: #a98567;
+  color: #a47d5e;
   letter-spacing: 1px;
   font-style: normal;
   font-weight: 600;
@@ -3855,12 +3855,12 @@ body {
   height: 270px;
   width: 100%;
 }
-.global-footer .footer-jibarito__ingredients .jibarito__item .jibarito__item-photo {
+.global-footer .footer-jibarito__ingredients .jibarito__item-photo {
   margin: 0 auto;
   width: 100px;
   height: 100px;
 }
-.global-footer .footer-jibarito__ingredients .jibarito__item .jibarito__item-photo img {
+.global-footer .footer-jibarito__ingredients .jibarito__item-photo img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -3871,7 +3871,7 @@ body {
   margin-top: 15px;
 }
 .global-footer .footer-jibarito__ingredients .jibarito__item .description h2 {
-  color: #a98567;
+  color: #a47d5e;
   letter-spacing: 1px;
   font-style: normal;
   font-weight: 600;
