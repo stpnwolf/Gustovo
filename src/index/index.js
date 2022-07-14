@@ -2,7 +2,7 @@ import './index.less';
 
 $('a[href^="#"]').click(function(){
     let target = $(this).attr('href');
-    $('html, body').animate({scrollTop: $(target).offset().top}, 1500);
+    $('html, body').animate({scrollTop: $(target).offset().top}, 2000);
     return false;
 });
 
@@ -58,24 +58,24 @@ $(function() {
 
 $(document).ready(function() {
     let leftUIEl = $('.carousel-arrow-left');
-    let  rightUIEl = $('.carousel-arrow-right');
-    let  elementsList = $('.carousel-list');
-    let  pixelsOffset = 100;
-    let  currentLeftValue = 0;
-    let  elementsCount = elementsList.find('li').length;
-    let  minimumOffset = - ((elementsCount - 5) * pixelsOffset);
-    let  maximumOffset = 0;
+    let rightUIEl = $('.carousel-arrow-right');
+    let elementsList = $('.carousel-list');
+    let pixelsOffset = 100;
+    let currentLeftValue = 0;
+    let elementsCount = elementsList.find('li').length;
+    let minimumOffset = - ((elementsCount - 3) * pixelsOffset);
+    let maximumOffset = 0;
 
     leftUIEl.click(function() {
         if (currentLeftValue != maximumOffset) {
-            currentLeftValue += 125;
+            currentLeftValue += 100;
             elementsList.animate({ left : currentLeftValue + "px"}, 500);
         }
     });
 
     rightUIEl.click(function() {
         if (currentLeftValue != minimumOffset) {
-            currentLeftValue -= 125;
+            currentLeftValue -= 100;
             elementsList.animate({ left : currentLeftValue + "px"}, 500);
         }
     });
